@@ -1,0 +1,358 @@
+body{
+    background-color: #140c2f;
+}
+
+/*--------------cabeçalho------------------*/
+
+.cabecalho {
+    background-color: rgb(37, 9, 71);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    gap: 20px;
+}
+
+.rodape {
+    margin-top: 120px;
+}
+
+.barra-estilizada {
+    width: 60%;
+    padding: 10px;
+    background-color: #552978;
+    border-radius: 100px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+.navegação {
+    background-color: #552978;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    gap: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+}
+
+a {
+    font-family: Jerseye, sans-serif, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+/*-------------------------------------------------------*/
+
+
+
+
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.titulo{
+    color: #fda90f;
+}
+
+.linha{
+    border: #dd8712 3px solid;
+    width: 800px;
+
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+    gap: 100px;
+    color: #dd8712;
+    background-color: #250946;
+
+}
+
+.titulocolecionadores{
+    display: flex;
+    align-items: center;
+    color: #dd8712;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.textoinicio{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.linha2{
+    display: flex;
+    align-items: center;
+    border: #dd8712 3px solid;
+    width: 1800px;
+    height: 0px;
+}
+
+.titulotopo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha3{
+    border: #dd8712 3px solid;
+    margin: 50px;
+    width: 2200px;
+}
+
+/*--------------------Produtos-----------------------*/
+
+.ConhecaProdutos {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin: 200px auto;
+}
+
+.ConhecaProdutos:hover {
+    transition: transform 0.5s;
+    color: #E2A64F;
+}
+
+.SubTituloProdutos {
+    font-family: monospace;
+    font-size: 40px;
+    margin: 0px auto;
+    color: white;
+    width: 2200px;
+    padding: 20px;
+}
+
+.LinhaProdutos {
+    border: #E2A64F 4px solid;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+.MaisVendidosTitulo{
+    margin: 100px;
+}
+
+.Produtos {
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background-color: #250947;
+    height: 850px;
+
+}
+
+.Produto1 {
+    border: #E2A64F 4px solid;
+    width: 350px;
+    height: 550px;
+    color: white;
+    font-size: 27px;
+    font-family: monospace;
+    text-align: center;
+    padding: 10px;
+    background-color: #140C2F;
+}
+
+.TextoValor {
+    font-size: 30px;
+    color: #E2A64F;
+    font-weight: bold;
+}
+
+.botaoMaisVendidos{
+    border: #E2A64F 4px solid;
+    width: 350px;
+    height: 80px;
+    color: #E2A64F;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: monospace;
+    text-align: center;
+    background-color: #140C2F;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    background-color: #E2A64F;
+    color: white;
+    transform: scale(1.1);
+}
+
+.Botoes{
+    display: flex;
+    margin-top: 30px;
+    width: 460px;
+    gap: 30px;
+}
+
+.BotaoPassar:hover {
+    transition: transform 0.3s;
+    transform: scale(1.2);
+}
+
+.FunkoPop{
+    margin-top: 300px;
+}
+
+
+/*------------------------------------------*/
+
+
+
+
+
+
+.rodape{
+    background-color: rgb(37, 9, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 180px;
+}
+
+
+.linhalado{
+    border-left: 2px solid #583e60;
+    height: 100px;
+    margin: 3px;
+}
+
+.contato img{
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin: 8px;
+}
+
+.contato p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+
+
+
+
+linha1{
+    border: 2px solid #e2a64f;
+    width: 400px;
+}
+
+.titulo1 {
+    color: #e2a64f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 16px;
+}
+
+.barra-email{
+    width: 20%;
+    padding: 10px;
+    background-color: #552978;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    display: flex;
+}
+
+.botao{
+    background-color: #e2a64f;
+    color: white;
+    padding: 9px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Descontos*/
+
+.ofertas{
+    margin-top: 180px;
+}
+
+.linhaDesconto{
+    border: 2px solid #e2a64f;
+    width: 1800px;
+}
+
+.tituloDesconto {
+    color: #e2a64f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 16px;
+    padding: 30px;
+}
+
+.textoDesconto {
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.barra-email{
+    width: 30%;
+    padding: 20px;
+    background-color: #552978;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    display: flex;
+    font-size: 20px;
+}
+
+.botaoDesconto{
+    background-color: #e2a64f;
+    color: white;
+    font-weight: bold;
+    padding: 15px 60px;
+    font-size: 23px;
+    border: none;
+    border-radius: 5px;
+}
+
+.botaoDesconto:hover {
+    transform: scale(1.1);
+}

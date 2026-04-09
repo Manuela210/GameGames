@@ -1,0 +1,258 @@
+body {
+    background-color: #140C2F;
+}
+
+.inicioPagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
+
+.linhaTop{
+    border: #E2A64F 4px solid;
+    width: 990px;
+}
+
+
+
+.BannerPrincipal{
+    width: 3030px;
+    height: 747px;
+    /*esconde partes da imagem que passam do limite*/
+    overflow: hidden;
+    margin: 0 auto;
+    border: 2px solid #06063a;
+    margin-top: 100px;
+    position: relative;
+}
+
+.banner {
+    display: flex;
+    width: 100%;
+    animation: slide 20s infinite;
+}
+
+.banner img {
+    width: 100%;
+    height: 747px;
+    /*imagem preenche espaço sem deformar*/
+    object-fit: cover;
+    /*impede imagem de encolher*/
+    flex-shrink: 0 ;
+}
+
+/*faz um carrossel automático de imagens*/
+/*translateX() - move no eixo horizontal*/
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-3030px); }
+    50% { transform: translateX(-6060px); }
+    75% { transform: translateX(-9090px); }
+    100% { transform: translateX(0px); }
+}
+
+.TextPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: -20px;
+}
+
+.linhaTextPrincipal_1{
+    border: #E2A64F 4px solid;
+    width: 1910px;
+}
+
+.TituloTextPrincipal {
+    font-family:Impact, fantasy;
+    color: white;
+    font-size: 50px;
+}
+
+.TextoStarWars {
+    font-family: monospace;
+    font-size: 30px;
+    margin: 0px auto;
+    color: white;
+    width: 2200px;
+    padding: 20px;
+}
+
+strong {
+    color: #E2A64F;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.linhaTextPrincipal_2{
+    border: #E2A64F 4px solid;
+    width: 2200px;
+    margin: 20px auto;
+}
+
+.sobre {
+    margin: 60px;
+
+}
+
+.img_sobre{
+    display: flex;
+    position: relative;
+}
+
+/*PRODUTOS*/
+
+.ConhecaProdutos {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin: 200px auto;
+}
+
+.ConhecaProdutos:hover {
+    transition: transform 0.5s;
+    color: #E2A64F;
+}
+
+.SubTituloProdutos {
+    font-family: monospace;
+    font-size: 40px;
+    margin: 0px auto;
+    color: white;
+    width: 2200px;
+    padding: 20px;
+}
+
+.LinhaProdutos {
+    border: #E2A64F 4px solid;
+    width: 130px;
+    margin-left: 316px;
+    margin-top: -5px;
+}
+
+.MaisVendidosTitulo{
+    margin: 100px;
+}
+
+.Produtos {
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    background-color: #250947;
+    height: 850px;
+
+}
+
+.Produto {
+    border: #E2A64F 4px solid;
+    width: 350px;
+    height: 550px;
+    color: white;
+    font-size: 27px;
+    font-family: monospace;
+    text-align: center;
+    padding: 50px;
+    background-color: #140C2F;
+}
+
+/*somente na imagem dentro do card Produto quando o mouse estiver sobre ela*/
+.Produto div img:hover{
+    transition: transform 0.3s;
+    transform: scale(1.1);
+
+}
+
+.TextoValor {
+    font-size: 30px;
+    color: #E2A64F;
+    font-weight: bold;
+}
+
+.botaoMaisVendidos{
+    border: #E2A64F 4px solid;
+    width: 350px;
+    height: 80px;
+    color: #E2A64F;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: monospace;
+    text-align: center;
+    background-color: #140C2F;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    background-color: #E2A64F;
+    color: white;
+    transform: scale(1.1);
+}
+
+.Botoes{
+    display: flex;
+    margin-top: 30px;
+    width: 460px;
+    gap: 30px;
+}
+
+.BotaoPassar:hover {
+    transition: transform 0.3s;
+    transform: scale(1.2);
+}
+
+/*DESCONTO*/
+
+
+.ofertas{
+    margin-top: 180px;
+}
+
+.linhaDESCONTO{
+    border: 2px solid #e2a64f;
+    width: 1800px;
+}
+
+.tituloDESCONTO {
+    color: #e2a64f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 16px;
+    padding: 30px;
+}
+
+.textoDESCONTO {
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.barra-email{
+    width: 30%;
+    padding: 20px;
+    background-color: #552978;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    display: flex;
+    font-size: 20px;
+}
+
+.botaoDESCONTO{
+    background-color: #e2a64f;
+    color: white;
+    font-weight: bold;
+    padding: 15px 60px;
+    font-size: 23px;
+    border: none;
+    border-radius: 5px;
+}
+
+.botaoDESCONTO:hover {
+    transform: scale(1.1);
+}

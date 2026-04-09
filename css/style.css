@@ -1,0 +1,345 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #140C2F ;
+}
+
+.cabecalho {
+    background-color: rgb(37, 9, 71);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    gap: 20px;
+}
+
+.barra-estilizada {
+    width: 60%;
+    padding: 10px;
+    background-color: #552978;
+    border-radius: 100px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+.navegação {
+    background-color: #552978;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    gap: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+}
+
+a {
+    font-family: Jerseye, sans-serif, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+.linha{
+    border: 2px solid #83667c;
+    width: 400px;
+}
+
+.marcas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+}
+
+.imgmarcas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.BannerPrincipal{
+    width: 1510px;
+    height: 330px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 2px solid #06063a;
+    margin-top: 0px;
+}
+
+.banner {
+    display: flex;
+    width: 100%;
+    animation: slide 15s infinite;
+}
+
+.banner img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    flex-shrink: 0 ;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    33.33% { transform: translateX(-1510px); }
+    66.66% { transform: translateX(-3020px); }
+    100% { transform: translateX(0px); }
+}
+
+.bemvindo{
+    background-color: rgb(37, 9, 71);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 360px;
+    gap: 8px;
+    margin: 40px;
+}
+
+.imagem {
+    float: left;
+    margin-left: 30px;
+    max-width: 20%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto {
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    font-size: 22px;
+    max-width: 600px;
+    color: white;
+}
+
+
+.linha1{
+    border: 2px solid #e2a64f;
+    width: 400px;
+}
+
+.titulo1 {
+    color: #e2a64f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 16px;
+}
+
+.barra-email{
+    width: 20%;
+    padding: 10px;
+    background-color: #552978;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    display: flex;
+}
+
+.botao{
+    background-color: #e2a64f;
+    color: white;
+    padding: 9px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rodape{
+    background-color: rgb(37, 9, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 180px;
+}
+
+
+.linhalado{
+    border-left: 2px solid #583e60;
+    height: 100px;
+    margin: 3px;
+}
+
+.contato img{
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin: 8px;
+}
+
+.contato p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+
+.imagemfundo{
+    background-image: url('../img_LoginHome/fundologin.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.formulario{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #250947;
+    height: 650px;
+    margin: 50px;
+    width: 630px;
+    border-radius: 15px;
+}
+
+.campos input{
+    width: 510px;
+    height: 36px;
+    border-radius: 15px;
+    background-color: #552978;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    color: white;
+    padding-left: 10px;
+}
+
+.formulario button{
+    background-color: #523941;
+    color: #d19a4d;
+    border-radius: 50px;
+    width: 200px;
+    height: 39px;
+    margin-top: -40px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    font-family: "Calibri Light";
+}
+
+.campos label{
+    line-height: 1.0;
+    letter-spacing: -0.01em;
+    font-size: 25px;
+    max-width: 600px;
+    color: white;
+    font-family: "Calibri Light";
+}
+
+
+.tituloform{
+    margin-bottom: -40px;
+    font-size: 48px;
+    text-shadow: 4px 4px 2px rgb(20, 12, 47);
+    letter-spacing: 0.02em;
+    font-family: "Calibri Light";
+    color: white;
+}
+
+
+
+.LinhaProdutos {
+    border: #E2A64F 4px solid;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+.Produtos {
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color: #250947;
+    height: 560px;
+}
+
+.Produto1 {
+    border: #E2A64F 4px solid;
+    width: 250px;
+    height: 380px;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    padding: 10px;
+    background-color: #140C2F;
+}
+
+.TextoValor {
+    font-size: 30px;
+    color: #E2A64F;
+    font-weight: bold;
+    margin: -5px;
+}
+
+.botaoMaisVendidos{
+    border: #E2A64F 4px solid;
+    width: 190px;
+    height: 55px;
+    color: #E2A64F;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: monospace;
+    text-align: center;
+    background-color: #140C2F;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    background-color: #E2A64F;
+    color: white;
+    transform: scale(1.1);
+}
+
+.Botoes{
+    display: flex;
+    margin-top: 10px;
+    width: 240px;
+    gap: 10px;
+}
+
+.BotaoPassar:hover {
+    transition: transform 0.3s;
+    transform: scale(1.2);
+}
+
+.FunkoPop{
+    margin-top: 300px;
+}

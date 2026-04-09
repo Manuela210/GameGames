@@ -1,0 +1,338 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #160d2e;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho {
+    background-color: rgb(37, 9, 71);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    gap: 20px;
+    width: 100%;
+}
+
+.barra-estilizada {
+    width: 60%;
+    padding: 10px;
+    background-color: #552978;
+    border-radius: 100px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+.navegação {
+    background-color: #552978;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    gap: 20px;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+}
+
+a {
+    font-family: Jerseye, sans-serif, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.logo img {
+    height: 150px;
+}
+
+
+.icones-cabecalho {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+
+.icones-cabecalho a img {
+    width: 35px;
+    height: auto;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+
+nav {
+    background-color: #221445;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li a {
+    color: white;
+    font-family: 'Jersey 10', sans-serif;
+    font-size: 32px;
+    position: relative;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+
+nav ul li a:hover {
+    color: #f4c45b;
+}
+
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 0 20px;
+}
+
+
+.titulo-secao {
+    text-align: center;
+    font-family: 'Instrument Serif', serif;
+    color: #f4c45b;
+    font-size: 46px;
+    font-weight: normal;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.titulo-secao span {
+    position: relative;
+    padding: 0 10px;
+}
+
+.grade-produtos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 60px;
+}
+
+.cartao-produto {
+    box-sizing: border-box;
+    width: 260px;
+    border: 1px solid #d5a646;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+
+.etiqueta {
+    position: absolute;
+    top: -12px;
+    background-color: #f4c45b;
+    color: black;
+    padding: 2px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.cartao-produto img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+
+.titulo-produto {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    color: #e0e0e0;
+    font-size: 17px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    height: 48px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.preco-antigo {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    color: #888888;
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+
+.preco-novo {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    color: #f4c45b;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.parcelamento {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    color: #e0e0e0;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.parcelamento strong {
+    color: #f4c45b;
+}
+
+.botao-comprar {
+    background-color: transparent;
+    color: #f4c45b;
+    border: 1px solid #f4c45b;
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.botao-comprar:hover {
+    background-color: #f4c45b;
+    color: #160d2e;
+}
+
+
+.caixa-texto-novidades {
+    background-color: transparent;
+    border: 1px solid #443c5c;
+    border-radius: 8px;
+    padding: 40px 50px;
+    width: 100%;
+    max-width: 1100px;
+    margin-bottom: 60px;
+    text-align: left;
+    position: relative;
+}
+
+.caixa-texto-novidades .titulo-caixa {
+    position: absolute;
+    top: -30px;
+    left: 40px;
+    background-color: #160d2e;
+    padding: 0 15px;
+    font-family: 'Instrument Serif', serif;
+    color: #f4c45b;
+    font-size: 48px;
+    font-weight: normal;
+    margin: 0;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+.caixa-texto-novidades h3,
+.caixa-texto-novidades p {
+    font-family: 'Instrument Serif', serif;
+    color: #e0e0e0;
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.rodape {
+    background-color: rgb(37, 9, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 180px;
+    width: 100%;
+}
+
+
+.linhalado {
+    border-left: 2px solid #583e60;
+    height: 100px;
+    margin: 3px;
+}
+
+.contato img {
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin: 8px;
+}
+
+.contato p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+
+.footer{
+    width: 100%;
+}
+
+.info-contato {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.info-contato img {
+    height: 18px;
+}
+
+.direitos-autorais {
+    color: #a0a0a0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
